@@ -16,3 +16,4 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 require("nvim-tree").setup()
+vim.cmd('autocmd BufNewFile,BufRead *.ejs set filetype=html')
